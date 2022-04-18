@@ -1,0 +1,32 @@
+@media(max-width:1000px){
+    body{
+        background-position:85% 120%,0% 193%, 50% 117%;
+    }
+    section{
+        flex-direction:column-reverse;
+    }
+    .photo-slider{
+        padding-top:60%;
+        text-align:center; 
+        padding-bottom:10%;
+    }
+    .written-content{
+        width:85%;
+        text-align:center;
+        padding-bottom:20%;
+    }
+}
+@media(max-width:680px){
+    .photo-slider{
+        padding-top:80%;
+    }
+}
+@media(max-width:550px){
+    body{
+        background-position: 65% 120%,0% 205%, 50% 116%;
+    }
+    .photo-slider{
+        padding-top:110%;
+        padding-bottom:30%;
+    }
+}
